@@ -21,3 +21,11 @@ print('a is b is c: {a is b is c}')
 
 a, b, *c, d, e = 'QWERTYUIOP'  # c = ['E', 'R', 'T', 'Y', 'U', 'I']
 print(a, b, c, d, e)  # Q W ['E', 'R', 'T', 'Y', 'U', 'I'] O P
+
+print(dir())  # shows list of names that are in the namespace
+
+'''
+a, b, c = 3, 3, 3 means object 3 with names a b c
+
+variable in python - is a name that can be called anything. therefore the names are not typed.
+'''
